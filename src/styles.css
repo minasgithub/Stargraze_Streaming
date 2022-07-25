@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow&display=swap");
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #151515;
+  color: white;
+  font-family: Barlow, sans-serif;
+  opacity: 0.9;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #3fa796;
+}
+
+h1 {
+  color: #b4ff9f;
+  font-weight: bold;
+}
+
+h2 {
+  color: #b4ff9f;
+  font-weight: bold;
+}
+
+table {
+  font-size: 17px;
+  height: 400px;
+  margin: 0 10% 0 10%;
+  text-align: left;
+  width: 80%;
+}
+
+th {
+  padding: 10px 60px 0 0;
+}
+
+td {
+  padding: 5px 60px 5px 0;
+}
+
+tr:hover {
+  opacity: 0.8;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.add-btn {
+  background-color: #3fa796;
+  border: none;
+  box-shadow: 0 0 5px -2px white;
+  border-radius: 5px;
+  color: white;
+  height: 40px;
+  opacity: 0.9;
+  width: 100px;
+}
+
+.banner {
+  align-items: center;
+  background-image: url("https://images.unsplash.com/uploads/14116941824817ba1f28e/78c8dff1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1586&q=80");
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  justify-content: center;
+}
+
+.bag-count {
+  align-items: center;
+  background-color: #eae509;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 1px black;
+  color: #f73d93;
+  display: flex;
+  height: 25px;
+  justify-content: center;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  width: 25px;
+}
+
+.bag-count:hover {
+  box-shadow: 0 0 5px 0.5px black;
+}
+
+.bag-modal {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 3px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  justify-content: center;
+  margin-top: 18%;
+  padding-bottom: 20px;
+  position: fixed;
+  width: 50%;
+  z-index: 1;
+}
+
+.bag-wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.checkout-btn {
+  background-color: #3fa796;
+  border: none;
+  box-shadow: 0 0 5px -1px black;
+  border-radius: 5px;
+  color: white;
+  height: 40px;
+  margin: 20px 0 0 0;
+  opacity: 0.9;
+  width: 100px;
+}
+
+.delete-btn {
+  background-color: #3fa796;
+  border: none;
+  box-shadow: 0 0 5px -2px white;
+  border-radius: 5px;
+  color: white;
+  height: 40px;
+  opacity: 0.9;
+  width: 70px;
+}
+
+.got-it {
+  background-color: #3fa796;
+  border: none;
+  box-shadow: 0 0 5px -1px black;
+  border-radius: 5px;
+  color: white;
+  height: 40px;
+  margin: 20px 20px 0 0;
+  opacity: 0.9;
+  width: 100px;
+}
+
+.main {
+  align-items: center;
+  background-color: #0e185f;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  margin: 0;
+  width: 100%;
+}
+
+.modal-banner {
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1465101162946-4377e57745c3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1478&q=80");
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  margin: none;
+}
+
+.modal-item {
+  color: black;
+  padding: 10px 0;
+}
+
+.moviesTable {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.page-link {
+  align-items: center;
+  background-color: #3fa796;
+  border: none;
+  color: white;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  margin: 40px 0 40px 0;
+  opacity: 0.8;
+  width: 50px;
+}
+
+.page-link:hover {
+  background-color: #3fa796;
+  color: white;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.shopping-bag {
+  border-radius: 50%;
+  box-shadow: 0 0 5px 1px black;
+  height: 50px;
+  margin: 20px;
+  width: 50px;
+}
+
+.shopping-bag:hover {
+  box-shadow: 0 0 10px 1px black;
+}
+
+.slogan {
+  color: #b4ff9f;
+  font-size: 20px;
+}
+
+.star-backdrop {
+  background-image: url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=611&q=80");
+  height: 100%;
+  width: 50%;
+}
